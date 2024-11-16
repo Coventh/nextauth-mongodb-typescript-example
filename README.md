@@ -1,10 +1,9 @@
-## Next.js 13, NextAuth.js, MongoDB, Typescript Example  
+## Next.js 13, NextAuth.js, MongoDB, Typescript Example
+
 A demo project that uses NextAuth.js for authentication, connects to MongoDB with Mongoose, and supports Google OAuth and email/password login.
 
-## New Version (Next.js 14, NextAuth.js v5, MongoDB, Typescript Example)
-Check out the new version of this project [here](https://github.com/wei30172/nextauth-v5-mongodb-typescript-example).
-
 ## Features
+
 - OAuth: Log in with Google.
 
 - Credential Login: Log in with email and password.
@@ -15,9 +14,8 @@ Check out the new version of this project [here](https://github.com/wei30172/nex
 
 - Secure Routes: Access only for logged-in users / admins.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Environment Setup
+
 Create a .env file in the root directory and add the following variables:
 
 ```env
@@ -37,15 +35,12 @@ GOOGLE_CLIENT_ID & GOOGLE_CLIENT_SECRET
 - Create a new project.
 
 - Head over to APIs & Services => Credentials.
-  
 - Click on CREATE CREDENTIALS => OAuth client ID.
-  
 - Choose the Web application.
 
 - Add to Authorized JavaScript origins: http://localhost:3000 .
 
 - Add to Authorized redirect URIs: http://localhost:3000/api/auth/callback/google.
-  
 - Finish by going to APIs & Services => OAuth consent screen and publishing the app.
 
 ## Getting Started
